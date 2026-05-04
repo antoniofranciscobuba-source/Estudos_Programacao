@@ -8,12 +8,13 @@ Olá, Mundo!
 ~~~~~~~~~~~~
 '''
 def escreva(msg):
-    tamanho = len(msg)
-    tot = '~' * tamanho
-    print(tot)
-    print(msg)
-    print(tot)
+    tam = len(msg) + 4
+    print('~' * tam)
+    print(f'  {msg}')
+    print('~' * tam)
+
       
-escreva('  LUA DE MEL  ')
-escreva('UMA MARATONA INCRIVEL ')
-escreva('COM FÉ A GENTE CONSEGUE MANTER A CALMA ')
+escreva('LUA DE MEL')
+escreva('UMA MARATONA INCRIVEL')
+escreva('COM FÉ A GENTE CONSEGUE MANTER A CALMA')
+escreva('A tecnologia tem evoluído muito nos ultimos tempos')
